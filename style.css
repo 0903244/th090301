@@ -1,0 +1,106 @@
+@charset "UTF-8";
+/*
+Theme Name: original
+Theme URL: テーマのサイトのURI
+Description: テーマについての簡単な説明
+Author: テーマの作者
+Version: テーマのバージョン
+Tags: テーマの特徴となるキーワード（カンマ区切りで複数OK）
+License: テーマのライセンス
+License URI: テーマのライセンスのURI
+*/
+
+.top {
+    width: 300px;
+}
+
+.top img {
+    width: 100%;
+}
+
+.logo {
+    width: 120px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.topnav ul {
+    display: flex;
+}
+
+.topnav li {
+    padding: 0 20px;
+    list-style: none;
+}
+
+.topnav a {
+    color: black;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    width: 960px;
+    margin: 30px auto;
+    justify-content: space-between;
+}
+
+.mainvisual {
+    background-image: url('images/mainvisual.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+
+.about {
+    text-align: center;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.bicycle {
+    text-align: center;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.sectiontitle {
+    border-bottom: 1px solid black;
+    display: inline-block;
+}
+
+.profile .left {
+    width: 120px;
+    margin-right: 30px;
+}
+
+.profile .left img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+}
+
+.profile .right {
+    width: 300px;
+    text-align: left;
+}
+
+.bicyclebox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bicyclebox .col3 {
+    width: 264px;
+
+}
+
+.bicyclebox .col3 img {
+    width: 100%;
+}
